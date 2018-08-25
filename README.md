@@ -1,2 +1,2 @@
-# Repozitorij-2
-Projekt pri Programiranju 1
+# Projekt pri Programiranju 1
+Japonski stripi oziroma t.i. "Mange"
