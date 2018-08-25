@@ -16,14 +16,14 @@ def shrani(url, ime_datoteke, vsili_prenos=False):
     #try:
     print('Shranjujem {}...'.format(url))#, end='')
     sys.stdout.flush()
-    if os.path.isfile(ime_datoteke) and not vsili_prenos:
-        print('shranjeno ze od prej!')
-        return
+    #if os.path.isfile(ime_datoteke) and not vsili_prenos:
+    #    print('shranjeno ze od prej!')
+    #    return
     r = requests.get(url)
     #except requests.exceptions.ConnectionError:
         #print('stran ne obstaja!')
     pripravi_imenik(ime_datoteke)
-    with open(ime_datoteke, 'w', encoding='utf-8') as datoteka:
+    with open(ime_datoteke, 'a', encoding='utf-8') as datoteka:
         datoteka.write(r.text)
         print('shranjeno!')
 
