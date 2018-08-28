@@ -1,29 +1,27 @@
-# Projekt pri Programiranju 1
+# Olimpijske igre
 
-## Japonski stripi oziroma t.i. "Mange"
-V tem repozitoriju je zajeta analiza podatkov 2500 najbolj priljubljenih mang s spletne strani https://myanimelist.net/.
+V tem repozitoriju je zajeta analiza podatkov 135571 udeležencev na olimpijskih igrah od leta 1992 do 2016 originalno pobrana s strani www.sports-reference.com, mi pa smo jo prejeli že urejeno v tabelo.
 
-### Zajeti podatki
-  * naslov mange
-  * avtor
-  * žanri
-  * popularnost
-  * ocena glede na spletno stran Myanimelist (tu nam je omogočen vpogled tudi kolikšen delež ocenjevalcev je postavil določeno oceno)
-  * število ocenjevalcev
-  * število trenutnih bralcev
-  * število ljudi, ki jo nameravajo prebrati
-  * število ljudi, ki so jo že prebrali
-  * število ljudi, ki je branje opustilo ne da bi mango prebrali do konca
-  * dolžina (število poglavij; za daljše tudi število zvezkov)
-  * obdobje v katerem je manga izhajala (še izhaja)
+## Zajeti podatki
+  * ime tekmovalca
+  * država, ki jo zastopa tekmovalec
+  * mesto, kjer igre potekajo
+  * leto udeležene igre (tudi ali so poletne ali zimske)
+  * šport
+  * disciplina športa
+  * višina tekmovalca
+  * teža tekmovalca
+  * starost
+  * spol
 
-### Analiza
-  * korelacija med uspešnostjo (dobra ocena ali visoka popularnost) in dolžino
-  * primerjava pupularnosti starejših mang z novejšimi
-  * koliko uspešnih mang ima avtor z vsaj eno uspešno mango
-  * gostota uspešnih mang skozi čas
+## Analiza
+  * uspešnost tekmovalcev po posameznih igrah
+  * uspešnost držav po disciplinah
+  * uspešnost tekmovalcev udeleženih na večih igrah
+  * morebitna uspešnost tekmovalcev v več športih
+ 
+## Pričakovani rezultati
+Pričakujemo z leti narasla udeležba obeh iger. Poskusili bomo napovedati, kdaj bo zmagala kakšna države glede na rezultate prejšnjih
+generacij (skandinavci v nordijskih discplinah, azijske države v namiznem tenisu,...). Jasno je tudi, da so bolj uspešne večje države, 
+zato bomo to poskušali regulirati v razmerju z vsemi udeleženci tiste države.
 
-### Pričakovani rezultati
-Pričakujemo da bo visoka korelacija med popularnostjo in dobro oceno. Velika verjetnost je, da so ostale mange priznanega
-avtorja priljubljene, ni pa nujno da so vse uspešne. Poskusili bomo tudi ugotoviti, ali z dolžino manga igublja bralce
-oziroma popularnost. Pričakovati je tudi, da popularnost z leti po zaključku mange upada.
